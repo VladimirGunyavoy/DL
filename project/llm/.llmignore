@@ -1,0 +1,23 @@
+# .llmignore — файлы исключённые из автоматической загрузки в LLM-контекст
+
+# Архивная история — слишком длинная, читать только при необходимости
+history/changelog_archive.md
+
+# Python кэш
+__pycache__/
+*.pyc
+*.pyo
+
+# Сгенерированные данные (могут быть большими)
+data/
+*.npz
+*.npy
+*.pt
+*.pth
+
+# Временные файлы
+*.tmp
+*.log
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

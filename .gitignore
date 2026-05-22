@@ -1,0 +1,48 @@
+# Python virtual environments
+.venv/
+project/.venv/
+*.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Model / checkpoint files
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# Dataset / generated data directories
+hw/
+project/data/
+sms_spam_local_run/
+
+# Local tool / IDE folders
+.claude/
+
+# Misc
+.env
+env/
+
+# Ignore local notebook outputs if needed
+*.nbmetadata
