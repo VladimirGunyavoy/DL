@@ -1,0 +1,9 @@
+transformers
+datasets
+scikit-learn
+pandas
+numpy
+requests
+matplotlib
+ipykernel
+jupyter
