@@ -4,7 +4,7 @@
 """
 import json, math, os, sys, time
 
-RESULTS_FILE = os.path.join(os.path.dirname(__file__), 'results.json')
+RESULTS_FILE = os.path.join(os.path.dirname(__file__), '..', 'results.json')
 DATASETS = ['1k', '2k', '5k', '10k']
 INTERVAL = int(sys.argv[1]) if len(sys.argv) > 1 else 15
 

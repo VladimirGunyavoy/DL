@@ -1,0 +1,23 @@
+llm/
+spores_2/
+.venv/
+.claude/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# data files
+data/*.npy
+data/*.hdf5
+data/*.h5
+
+# model checkpoints
+checkpoints/*.pt
+
+# jupyter
+.ipynb_checkpoints/
+
+# os
+.DS_Store
+Thumbs.db
